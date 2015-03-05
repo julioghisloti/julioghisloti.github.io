@@ -1,1 +1,177 @@
-<h1>Olá!</h1>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+	<title>Julio Ghisloti</title>
+
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<meta name="description" content="Olá, eu sou o Júlio. Sou programador front-end, entusiasta de open source e apreciador de filmes ruins">
+
+	<!-- font -->
+	<link href='http://fonts.googleapis.com/css?family=Lato:100,400' rel='stylesheet' type='text/css'>
+
+	<!-- (free)Style -->
+	<link rel="stylesheet" href="build/css/main.css">
+
+
+</head>
+<body>
+
+	<!-- menu -->
+		<div class="menu">
+			<ul>
+				<li><a href="#">sobre</a></li>
+				<li><a href="#">trabalhos</a></li>
+				<li><a href="#">contato</a></li>
+			</ul>
+		</div>
+	<!-- /menu -->
+
+	<!-- home -->
+		<section id="home" class="home">
+			
+			<div class="logo">
+
+				<div class="logoName">
+					<h1>Julio Ghisloti <br> <em>fron-end developer</em></h1>
+				</div>
+
+			</div>
+
+		</section>
+	<!-- /home -->
+
+	<!-- sobre -->
+		<section class="sobre">
+			
+			<div class="sobreContent">
+				
+				<h2>Oi!</h2>
+				<p>Me chamo Júlio, tenho 18 anos e sou programador front-end a pouco menos de 3 anos.</p>
+				<p>
+					Entusiasta de open source e aplicações web, gosto de aprender novas tecnologias e
+					tudo relacionado a UI e UX
+				</p>
+
+			</div>
+
+		</section>
+	<!-- /sobre -->
+
+
+	<!-- trabalho -->
+		<section class="trabalho">
+			
+			<h2>Alguns Trabalhos</h2>
+
+			<div class="trabalhoBox">
+				<img src="build/img/jobs/simposio.jpg" alt="">
+				<h3>II Simpósio Internacional de Saúde</h3>
+				<p>
+					<em>Layout, Word Press, HTML 5, CSS3</em>
+				</p>
+			</div>
+
+			<div class="trabalhoBox">
+				<img src="build/img/jobs/cipoh.jpg" alt="">
+				<h3>Cipoh Brasil</h3>
+				<p>
+					<em>Layout, PHP, HTML, CSS</em>
+				</p>
+			</div>
+
+			<div class="trabalhoBox">
+				<img src="build/img/jobs/crosp.jpg" alt="">
+				<h3>CROSP</h3>
+				<p>
+					<em>HTML, CSS</em>
+				</p>
+			</div>
+		</section>
+
+		<section class="trabalho">
+			<div class="trabalhoBox">
+				<img src="build/img/jobs/ibuflex.jpg" alt="">
+				<h3>Ibuflex</h3>
+				<p>
+					<em>HTML5, CSS3, Google Maps API</em>
+				</p>
+			</div>
+
+			<div class="trabalhoBox">
+				<img src="build/img/jobs/jfonseca.jpg" alt="">
+				<h3>jFonseca Construtora</h3>
+				<p>
+					<em>HTML5, CSS3</em>
+				</p>
+			</div>
+
+			<div class="trabalhoBox">
+				<img src="build/img/jobs/monenfant.jpg" alt="">
+				<h3>Loja Monenfant</h3>
+				<p>
+					<em>Template estilizado para OpenCart</em>
+				</p>
+			</div>
+		</section>
+
+		<section class="trabalho">
+			<div class="trabalhoBox">
+				<img src="build/img/jobs/people_jovemnerd.jpg" alt="">
+				<h3>People + Jovem Nerd</h3>
+				<p>
+					<em>HTML5, CSS3, Google Maps API</em>
+				</p>
+			</div>
+
+			<div class="trabalhoBox">
+				<img src="build/img/jobs/teokanbrasil.jpg" alt="">
+				<h3>Toekan Brasil</h3>
+				<p>
+					<em>Word Press, HTML, CSS</em>
+				</p>
+			</div>
+
+			<div class="trabalhoBox">
+				<img src="build/img/jobs/topage.jpg" alt="">
+				<h3>Toekan Brasil</h3>
+				<p>
+					<em>Layout, PHP, HTML, CSS</em>
+				</p>
+			</div>
+
+
+		</section>
+	<!-- trabalho -->
+
+	<!-- contato -->
+		<section class="contato">
+
+			<div class="contatoContent">
+				<h2>Vamos trocar umas ideias?</h2>
+				<p>
+					Você pode falar comigo pelo meu
+					<a href="mailto:julioghisloti@gmail.com">email</a>, 
+					<a href="https://twitter.com/julioghisloti">twitter</a> ou 
+					<a href="https://www.facebook.com/profile.php?id=1624654017">facebook</a>. <br>
+					E também pode dar uma olhada nos meus códigos lá no <a href="#">GitHub</a> &nbsp; :)
+				</p>
+			</div>
+
+		</section>
+	<!-- /contato -->
+
+
+	
+	<script>
+		if(window.screen.availHeight <= 600 && window.screen.availHeight <= 1920){
+			var altura = 600;
+		}else{
+			var altura = window.screen.availHeight;
+		}
+
+		document.getElementById('home').style.height = altura + 'px';
+	</script>
+
+</body>
+</html>
