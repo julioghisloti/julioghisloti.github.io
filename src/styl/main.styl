@@ -19,6 +19,14 @@
 			top 12px
 			z-index 9999
 			
+			@media screen and (max-width: 630px)
+				bottom 0
+				box-shadow(2px 3px 20px rgba(0, 0, 0, 0.2))
+				height 39px
+				left 0
+				top inherit
+				width 100%
+			
 			ul
 				margin 0
 				padding 0
@@ -45,6 +53,9 @@
 			height 700px
 			position relative
 			
+			@media screen and (max-width: 730px)
+				width 100%
+			
 			.logo
 				background-color #166CA9
 				box-shadow(2px 3px 20px rgba(0, 0, 0, 0.2))
@@ -56,6 +67,13 @@
 				top 50%
 				transition(.2s)
 				width 320px
+				
+				@media screen and (max-width: 630px)
+					left 0
+					margin-left 0
+					margin-top 0
+					top 0
+					width 100%
 				
 				&Name
 					color #fff
@@ -202,6 +220,10 @@
 				left -50%
 				width 180%
 				
+				@media screen and (max-width: 800px)
+					width 320%
+				
+				
 			&Content
 				align(both)
 				height 200px
@@ -219,7 +241,6 @@
 				p
 					color #fff
 					font-size 1.2em
-					font-weight 100
 				
 					a
 						color #E5E5E5
