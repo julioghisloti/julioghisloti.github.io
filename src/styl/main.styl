@@ -6,245 +6,200 @@
 	//jeet
 	@import 'jeet'
 	
-	body
-		font-family 'Lato'
-		margin 0
+	//fonts
+	@import 'fonts.styl'
+	
+	//colors
+	$azul = #0000ff
+	$cinza = #e0e0e0
+	
+	//tipografy
+	link(color, bgColor)
+		border-bottom 2px solid bgColor
+		color color
+		font-family $bold
+		font-weight 100
+		text-decoration none
+		transition(.2s ease)
 		
+		&:hover
+			border-bottom-color color
 
-	//menu
-		.menu
+	h2
+		font-family $title
+		font-size 3.3em
+		font-weight 100
+		margin 0 7px
+		
+	p
+		font-family $normal
+		font-size 1.5em
+		font-weight 100
+		margin 0
+		margin-bottom 20px
+		
+	
+	body
+		background-color $cinza
+		margin 0
+		padding 20px
+		
+		#container
 			background-color #fff
-			position fixed
-			right 10px
-			top 12px
-			z-index 9999
+			box-shadow(0 5px 50px rgba(0, 0, 0, 0.38))
+			overflow hidden
+			width 100%
 			
-			@media screen and (max-width: 630px)
-				bottom 0
-				box-shadow(2px 3px 20px rgba(0, 0, 0, 0.2))
-				height 53px
-				left 0
-				top inherit
+			//logo
+			.logo
+				padding 40px
+				position absolute		
+				
+				.icon
+					border 4px solid $azul
+					float left
+					height 36px
+					position relative
+					width @height
+
+					&:before
+						align(center)
+						box-shadow 0 -4px 0 0 $azul, 0 4px 0 0 $azul, 0 12px 0 0 $azul
+						content ' '
+						height 4px
+						margin-top -4.1px
+						position absolute
+						width 65%
+						
+				span
+					color $azul
+					display inline-block
+					font-family $bold
+					padding 11px
+					position relative
+					
+
+			//comps
+			.blockHalf
+				height 100%
+				position relative
+				span(1/2)
+				
+			.blockText
+				align(center)
+				width 325px
+				
+				h2
+					color $azul
+					
+				a
+					link($azul, #fff)
+				
+			//page
+			.fp-section
+				opacity 0
+				transition(.8s ease)
+				
+			.fp-section.active
+				opacity 1
+
+			.pages, .section
+				height 100%
+				position relative
 				width 100%
 			
-			ul
-				margin 0
-				padding 0
-				
-				li
-					display inline-block
-					padding 10px 8px
-					transition(.2s)
-					
-					@media screen and (max-width: 630px)
-						padding 17px 10px
+				//home
+				.home		
+					.projects
+						background-color $azul
+						
+						.work
+							align(center)
+							width 325px
+							
+							h2
+								color #fff
+								
+							p
+								color #fff
+							
+							a
+								link(#fff, $azul)
+								
+				//jobs
+				.jobBlock
+					overflow hidden
+					text-align center
 					
 					&:hover
-						background-color #164C71
-						
-						a
-							color #fff
+						.nav
+							opacity 1 !important
 					
-					a
-						color #166CA9
-						display block
-						text-decoration none
-						transition(.2s)
+					.jobSlide
+						align(center)
+						box-shadow(5px 5px 50px rgba(0, 0, 0, .8))
+						width 87%
+						z-index 9999
+						
+						.nav
+							align(center)
+							height 45px
+							opacity 0
+							position absolute
+							transition(.4s ease)
+							width 105%
+							z-index 9999
+							
+							.arrow
+								background-color $azul
+								box-shadow(5px 5px 20px rgba(0, 0, 0, .0))
+								cursor pointer
+								height 45px
+								position absolute
+								top 5px
+								transition(.2s ease)
+								width @height
+								
+								&:hover
+									background-color #fff
+									box-shadow(5px 5px 20px rgba(0, 0, 0, .5))
+									
+									&:before
+										border 5px solid $azul
+								
+								&:before
+									border 5px solid #fff
+									content ' '
+									height 5px
+									position absolute
+									top 15px
+									transform(rotate(-45deg))
+									transition(.2s ease)
+									width @height
+								
+								&:first-child
+									left 0
+									
+									&:before
+										border-right-color transparent
+										border-bottom-color transparent
+										left 20px
+									
+								&:last-child
+									right 0
+									
+									&:before
+										border-left-color transparent
+										border-top-color transparent
+										left 11px
 
-	//home
-		.home
-			height 700px
-			position relative
-			
-			@media screen and (max-width: 730px)
-				width 100%
-			
-			.logo
-				background-color #166CA9
-				box-shadow(2px 3px 20px rgba(0, 0, 0, 0.2))
-				left 50%
-				margin-left -160px
-				margin-top -100px
-				height 200px
-				position absolute
-				top 50%
-				transition(.2s)
-				width 320px
-				
-				@media screen and (max-width: 630px)
-					left 0
-					margin-left 0
-					margin-top 0
-					top 0
-					width 100%
-				
-				&Name
-					color #fff
-					content 'Julio Ghisloti'
-					font-weight 100
-					height 60px
-					margin-top -30px
-					position absolute
-					text-align center
-					text-shadow(1px 1px 3px #000)
-					transform(rotate(0deg))
-					transition(.2s)
-					top 50%
-					width 100%
+						img
+							height auto
+							width 100%
 					
-					h1
-						font-size 1.6em
-						font-weight 100
-						margin 0
-						
-						em
-							color #8DB0CA
-							font-size .9em
+					.bg
+						opacity .9
+						transform(scale(1.2))
+						filter blur(20px)
+						-webkit-filter blur(10px)
 					
-				&:hover
-					border-radius(50%)
-					height 320px
-					margin-top -160px
-					transform(rotate(-45deg))
-					
-					.logoName
-						transform(rotate(45deg))
-						
-	//sobre
-		.sobre
-			height 582px
-			overflow hidden
-			padding-top 100px
-			position relative
-			width 100%
-			
-			&::before
-				background-color #166CA9
-				content ' '
-				height 600px
-				left -20px
-				position absolute
-				width 150%
-				transform(rotate(-3deg))
-				top 30px
-				z-index -1
-			
-			&Content
-				align(both)
-				width 600px
-				
-				@media screen and (max-width: 630px)
-					width 90%
-				
-				
-				p:nth-child(2)
-					margin-top 43px
-				
-				h2
-					display initial
-					color #164C71
-					float left
-					font-size 10em
-					font-weight 100
-					margin 0
-					padding 20px
-					padding-top 0
-					
-					@media screen and (max-width: 750px)
-						float none
-						padding 0
-					
-				p
-					color #fff
-					
-	
-	//trabalho
-		.trabalho
-			center(1000px)
-			margin-top 30px
-			
-			@media screen and (max-width: 1120px)
-				center(90%)
-			
-			h2
-				color #166CA9
-				font-size 2em
-				margin-bottom 50px
-			
-			&Box
-				background-color #f9f9f9
-				display inline-block
-				outline 1px solid #eee
-				margin 10px
-				padding 15px
-				transition(.3s)
-				width calc(31% - 30px)
-				
-				@media screen and (max-width: 1120px)
-					width 44%
-					
-				@media screen and (max-width: 1050px)
-					width 42%
-					
-				@media screen and (max-width: 830px)
-					margin 15px 0
-					width calc(100% - 30px)
-				
-				img
-					height auto
-					width 100%
-					
-				h3
-					margin 14px 0
-					margin-bottom 5px
-					
-				p
-					font-size .9em
-					margin 0
-					
-				&:hover
-					background-color #fff
-					box-shadow(2px 3px 8px rgba(0, 0, 0, 0.3))
-				
-	//contato
-		.contato
-			height 600px
-			overflow hidden
-			margin-top 100px
-			position relative
-			width 100%
-			
-			&::before
-				background-color #166ca9
-				border-radius(50%)
-				content ' '
-				height 1000px
-				position absolute
-				left -50%
-				width 180%
-				
-				@media screen and (max-width: 800px)
-					width 320%
-				
-				
-			&Content
-				align(both)
-				height 200px
-				width 600px
-				
-				@media screen and (max-width: 630px)
-					width 90%
-				
-				h2
-					color #fff
-					font-size 3em
-					margin-bottom 5px
-					text-shadow 1px 1px 3px #164C71
-					
-				p
-					color #fff
-					font-size 1.2em
-				
-					a
-						color #E5E5E5
-						font-style italic
