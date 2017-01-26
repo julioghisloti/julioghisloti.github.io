@@ -1,1 +1,1 @@
-$(window).ready(function(){var e=$(window).height();$("#container").height(e-40),$(".pages").fullpage()});
+$(window).ready(function(){$(".pages").fullpage()});
