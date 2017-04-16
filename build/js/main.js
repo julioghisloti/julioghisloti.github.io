@@ -1,1 +1,0 @@
-$(window).ready(function(){$(".pages").fullpage()});

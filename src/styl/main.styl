@@ -1,210 +1,254 @@
-// Main File //
+//@import 'jeet'
+@import 'fonts.styl'
+@import 'nib.styl'
 
-	//nib
-	@import 'nib'
-	
-	//jeet
-	@import 'jeet'
-	
-	//fonts
-	@import 'fonts.styl'
-	
-	//colors
-	$azul = #0000ff
-	$cinza = #e0e0e0
-	
-	//tipografy
-	link(color, bgColor)
-		border-bottom 2px solid bgColor
-		color color
-		font-family $bold
-		font-weight 100
-		text-decoration none
-		transition(.2s ease)
-		
-		&:hover
-			border-bottom-color color
+$preto = #000
+$cinza = #666
 
-	h2
-		font-family $title
-		font-size 3.3em
-		font-weight 100
-		margin 0 7px
-		
-	p
-		font-family $normal
-		font-size 1.5em
-		font-weight 100
-		margin 0
-		margin-bottom 20px
-		
+body
+	margin 0
 	
-	body
-		background-color $cinza
+h1, h2, h3
+	font-family $black
+	
+p
+	font-family $bold
+	
+.header
+	position relative
+	width 100%
+	
+	h1
+		font-size 1.2em
+		float left
 		margin 0
-		//padding 20px
+		padding 30px
 		
-		#container
-			background-color #fff
-			box-shadow(0 5px 50px rgba(0, 0, 0, 0.38))
-			overflow hidden
-			width 100%
+
+	.menu
+		position absolute
+		right 30px
+		top 33px
+		
+		ul
+			list-style none
+			margin 0
+			padding 0
 			
-			//logo
-			.logo
-				padding 40px
-				position absolute		
+			li
+				display inline-block
+				margin-right 15px
 				
-				// .icon
-				// 	background-color $azul
-				// 	//border 4px solid $azul
-				// 	float left
-				// 	height 36px
-				// 	position relative
-				// 	width @height
-
-					// &:before
-					// 	align(center)
-					// 	box-shadow 0 -4px 0 0 $azul, 0 4px 0 0 $azul, 0 12px 0 0 $azul
-					// 	content ' '
-					// 	height 4px
-					// 	margin-top -4.1px
-					// 	position absolute
-					// 	width 65%
-						
-				span
-					color $azul
-					display inline-block
-					font-family $bold
-					//padding 8px
-					position relative
-					
-
-			//comps
-			.blockHalf
-				height 100%
-				position relative
-				span(1/2)
+				&:last-child
+					margin-right 0
 				
-				@media screen and (max-width 970px)
-					height 50%
-					span(1/1)
-				
-			.blockText
-				align(center)
-				width 325px
-				
-				h2
-					color $azul
-					
 				a
-					link($azul, #fff)
-				
-			//page
-			.fp-section
-				opacity 0
-				transition(.8s ease)
-				
-			.fp-section.active
-				opacity 1
-
-			.pages, .section
-				height 100%
-				position relative
-				width 100%
-			
-				//home
-				.home		
-					.projects
-						background-color $azul
-						
-						.work
-							align(center)
-							width 325px
-							
-							h2
-								color #fff
-								
-							p
-								color #fff
-							
-							a
-								link(#fff, $azul)
-								
-				//jobs
-				.jobBlock
-					overflow hidden
-					text-align center
+					color $cinza
+					font-family $bold
+					text-decoration none
 					
 					&:hover
-						.nav
-							opacity 1 !important
-					
-					.jobSlide
-						align(center)
-						box-shadow(5px 5px 50px rgba(0, 0, 0, .8))
-						width 87%
-						z-index 9999
-						
-						.nav
-							align(center)
-							height 45px
-							opacity 0
-							position absolute
-							transition(.4s ease)
-							width 105%
-							z-index 9999
-							
-							.arrow
-								background-color $azul
-								box-shadow(5px 5px 20px rgba(0, 0, 0, .0))
-								cursor pointer
-								height 45px
-								position absolute
-								top 5px
-								transition(.4s ease)
-								width @height
-								
-								&:hover
-									background-color #fff
-									box-shadow(5px 5px 20px rgba(0, 0, 0, .5))
-									
-									&:before
-										border 3px solid $azul
-								
-								&:before
-									border 3px solid #fff
-									content ' '
-									height 8px
-									position absolute
-									top 15px
-									transform(rotate(-45deg))
-									transition(.2s ease)
-									width @height
-								
-								&:first-child
-									left 0
-									
-									&:before
-										border-right-color transparent
-										border-bottom-color transparent
-										left 20px
-									
-								&:last-child
-									right 0
-									
-									&:before
-										border-left-color transparent
-										border-top-color transparent
-										left 11px
+						color $preto
 
-						img
-							height auto
-							width 100%
+@media screen and (min-width 1080px)
+	.container
+		_translate(-50%, -50%)
+		left 50%
+		margin 0 auto
+		position absolute
+		top 50%
+		width 1200px
+		z-index 9999
+		
+	.page
+		height 800px
+		
+		.content
+			.black, .image
+				_translate(0, -50%)
+				margin-right 40px
+				position absolute
+				top 50%
+				float left 
+				width 800px
 					
-					.bg
-						opacity .9
-						transform(scale(1.2))
-						filter blur(20px)
-						-webkit-filter blur(10px)
-					
+.page
+	display table
+	margin-bottom 100px
+	position relative
+	width 100%
+	
+	.content
+		display table
+		position relative
+		width 100%
+			
+		.black
+			background-color $preto
+			height 10px
+			
+		.image
+			box-shadow(0 15px 50px rgba(0, 0, 0, 0.44))
+			height 500px
+			overflow hidden
+			
+			
+			img
+				height auto
+				width 100%
+			
+		.text
+			display table
+			float right
+			width 360px
+			
+			h2, p
+				margin 0
+				padding 0
+				
+			h2, h3
+				font-size 3em
+				margin-bottom 3px
+				
+			p
+				font-size 1em
+				line-height 1.3em
+				margin -5px 0 10px 0
+				
+			a
+				border-bottom 3px solid $preto
+				color $preto
+				font-family $black
+				font-size 1.1em
+				padding-bottom 3px
+				text-decoration none
+				
+	.img-bg
+		// background-size cover		
+		// background-repeat no-repeat
+		// height 100%
+		// position absolute
+		// width 58%
+		// z-index 1
+		height 100%
+		overflow hidden
+		position absolute
+		width 58%
+		z-index 1
+		
+		img
+			height 100%
+			width auto
+		
+.page-right
+	.content
+		.image
+			float right
+			margin-right 0
+			right 0
+		
+		.text
+			float left
+			left 0
+
+	.img-bg
+		overflow hidden
+		right 0
+		
+		img
+			//height 100%
+			width auto
+			
+.home
+	display flex
+	height 100vh
+	margin-bottom 0
+			
+.footer
+	position relative
+	text-align center
+	width 100%
+	
+	p
+		color #888
+		font-size .8em
+		
+
+@media screen and (max-width 1250px)
+	.container
+		width 90%
+		
+		.content
+			.black, .image
+				width 61%
+				
+			.text
+				width 35%
+	.page			
+		.img-bg
+			width 55%
+			
+@media screen and (max-width 1080px)
+	.container, .header
+		margin 0 auto
+		position relative
+		width 95%
+
+	.container
+		.content
+			.black, .image, .text
+				position relative
+				width 100%
+				
+			.image
+				box-shadow(0 0 20px rgba(0, 0, 0, 0.44))
+				height 300px
+				margin-top 3%
+				margin-bottom 10px
+				
+				img
+					position absolute
+
+	.page
+		margin-bottom 100px
+		
+		.img-bg
+			height 50%
+			width 100%
+			z-index -1
+			
+			img
+				height auto
+				width 100%
+	
+	.home
+		height 500px
+		display block
+		margin-bottom 0
+		position relative
+		
+		.header
+			h1
+				float none
+				padding 10px 0 10px 0
+			
+			.menu
+				left 0
+				margin-bottom 50px
+				position relative
+				text-align left
+				top 0
+				
+				li
+					margin-right 10px
+		
+		.container
+			.black 
+				display none
+				
+	.footer
+		text-align left
+		
+		p
+			margin-left 10px			
+		

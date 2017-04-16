@@ -1,13 +1,9 @@
 var gulp        = require('gulp');
 var gutil       = require('gulp-util');
 var stylus      = require('gulp-stylus');
-var nib         = require('nib');
 var jeet        = require('jeet');
 var uglify      = require('gulp-uglify');
-var plumber     = require('gulp-plumber');
-var pngquant    = require('imagemin-pngquant');
 var watch       = require('gulp-watch');
-var concat      = require('gulp-concat');
 var browserSync = require('browser-sync').create();
 
 //compass error
@@ -33,7 +29,7 @@ gulp.task('default', ['serve']);
 
 //minificando js
 gulp.task('scripts', function(){
-    return gulp.src(['src/js/main.js'])
+    return gulp.src('src/js/*.js')
         .pipe(uglify())
         .pipe(gulp.dest('build/js/'))
         .pipe(browserSync.stream());
@@ -43,7 +39,7 @@ gulp.task('scripts', function(){
 gulp.task('stylus', function(){
     gulp.src('./src/styl/*.styl')
         .pipe(stylus({
-            use: [nib(), jeet()],
+            use: [jeet()],
             compress: true
         }))
         .pipe(gulp.dest('build/css'))
