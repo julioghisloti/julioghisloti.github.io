@@ -5,5 +5,12 @@
 	p{
 		padding: .75rem;
 		width: 41.66667%;
+
+		img{
+			margin-left: calc(-7.5vw - .75rem);
+			margin-left: -webkit-calc(-7.5vw - .75rem);
+			width: calc(100% * 2.39999 + 15vw);
+			width: -webkit-calc(100% * 2.39999 + 15vw);
+		}
 	}
 }

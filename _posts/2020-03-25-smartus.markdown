@@ -4,7 +4,7 @@ title:  Smartus
 date:   2020-03-31
 permalink: projetos/smartus/
 categories: projetos
-description: teste
+description: Startup referência no Brasil em produção de conteúdo e organização de eventos para o mercado de real estate. Estive envolvido no processo de ideação, discovery, prototipação, release e amadurecimento do produto que viabiliza a atuação digital da marca.
 ---
 Donec arcu nulla, ultrices eu bibendum non, porta id quam. Fusce ultricies varius leo, id tempor lorem sollicitudin eget. Duis in augue ac ligula finibus consequat non ac risus. Ut rhoncus lacinia justo. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed euismod malesuada nunc, nec porttitor mauris lobortis sit amet.
 
