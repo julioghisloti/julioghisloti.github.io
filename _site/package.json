@@ -1,0 +1,28 @@
+{
+  "name": "julioghisloti",
+  "description": "",
+  "version": "0.0.1",
+  "author": {
+    "name": "Julio"
+  },
+  "main": "gulpfile.js",
+  "devDependencies": {
+    "browser-sync": "^2.8.0",
+    "gulp": "~3.9.1",
+    "gulp-changed": "^1.3.2",
+    "gulp-minify-css": "~0.3.0",
+    "gulp-plumber": "~0.6.1",
+    "gulp-uglify": "~0.2.1",
+    "gulp-uglify-es": "^1.0.4",
+    "gulp-util": "~2.2.14",
+    "gulp-watch": "~0.5.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "gulp-sass": "^4.0.1",
+    "sass": "^1.17.2"
+  }
+}
