@@ -1,0 +1,71 @@
+@mixin transition($arr...) {
+    -webkit-transition: $arr;
+    -moz-transition:    $arr;
+    -ms-transition:     $arr;
+    -o-transition:      $arr;
+    transition:         $arr;
+}
+
+@mixin text-shadow($arr){
+	-webkit-text-shadow: $arr;
+	-moz-text-shadow:    $arr;
+	-ms-text-shadow:     $arr;
+	-o-text-shadow:      $arr;
+	text-shadow:         $arr;
+}
+
+@mixin box-shadow($arr){
+	-webkit-box-shadow: $arr;
+	-moz-box-shadow:    $arr;
+	-ms-box-shadow:     $arr;
+	-o-box-shadow:      $arr;
+	box-shadow:         $arr;
+}
+
+@mixin border-radius($arr){
+	-webkit-border-radius: $arr;
+	-moz-border-radius:    $arr;
+	-ms-border-radius:     $arr;
+	-o-border-radius:      $arr;
+	border-radius:         $arr;
+}
+
+@mixin absolute-align($x, $y){
+	-webkit-transform: translate($x, $y);
+	-moz-transform: translate($x, $y);
+	-ms-transform: translate($x, $y);
+	-o-transform: translate($x, $y);
+	transform: translate($x, $y);
+}
+
+@mixin blur($arr){
+	-webkit-filter: blur($arr);
+	-moz-filter: blur($arr);
+	-ms-filter: blur($arr);
+	-o-filter: blur($arr);
+	filter: blur($arr);
+}
+
+// generic transform
+@mixin transform($transforms...) {
+	   -moz-transform: $transforms;
+	     -o-transform: $transforms;
+	    -ms-transform: $transforms;
+	-webkit-transform: $transforms;
+          transform: $transforms;
+}
+
+
+// rotate
+@mixin rotate($deg) {
+  @include transform(rotate(#{$deg}deg));
+}
+ 
+// scale
+@mixin scale($scale) {
+	 @include transform(scale($scale));
+} 
+// translate
+@mixin translate($x, $y) {
+   @include transform(translate($x, $y));
+}

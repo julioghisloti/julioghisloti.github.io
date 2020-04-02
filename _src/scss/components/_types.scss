@@ -1,0 +1,48 @@
+//hgroup
+h1, h2, h3, h4, h5, h5{
+	font-weight: 400;
+	letter-spacing: -.04rem;
+	text-transform: uppercase;
+
+	strong{
+		font-weight: 700;
+	}
+}
+
+h2{
+	font-weight: 400;
+	letter-spacing: .16rem;
+	line-height: 1.1em;
+	font-size: 4rem;
+	margin-left: -.3rem;
+}
+
+h3{
+	font-weight: 400;
+	letter-spacing: .16rem;
+	line-height: 1.1em;
+	font-size: 1.8rem;
+	margin-left: -.3rem;
+}
+
+h4{
+	font-weight: 800;
+	letter-spacing: .1rem;
+	line-height: 1.1em;
+	font-size: 1rem;
+}
+
+h5{
+	letter-spacing: .1rem;
+	line-height: 1.1em;
+	font-size: .9rem;
+	margin-top: .2rem;
+}
+
+p{
+	color: $black;
+	font-weight: 400;
+	font-size: 1.1rem;
+	letter-spacing: .04rem;
+	line-height: 1.40em;
+}

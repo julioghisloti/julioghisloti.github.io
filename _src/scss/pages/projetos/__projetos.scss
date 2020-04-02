@@ -1,0 +1,76 @@
+.projects{
+	padding-top: 30%;
+
+	h2{
+		@include blur(22px);
+		margin-bottom: 2rem;//-5rem;
+		opacity: .2;
+	}
+
+	.columns{
+		flex-direction: column;
+	}
+
+	&-list{
+		list-style: none;
+
+		li{
+			@include transition(all .4s cubic-bezier(0.65, 0.05, 0.36, 1));
+			background: rgb(239,239,239);
+			background: linear-gradient(180deg, rgba(239,239,239,1) 0%, rgba(239,239,239,1) 50%, rgba(0,0,0,1) 50%, rgba(0,0,0,1) 100%);
+			background-size: auto 201%;
+			background-position: 0 0;
+			height: 300px;
+			margin-bottom: 2rem;
+			overflow: hidden;
+			position: relative;
+			width: 100%;
+
+			h3, p{
+				position: absolute;
+			}
+
+			h3{
+				@include transition(all .5s cubic-bezier(0.65, 0.05, 0.36, 1));
+				@include translate(0, -50%);
+				color: #000;	
+				margin-left: 3rem;
+				top: 50%;
+			}
+
+			p{
+				@include transition(all .5s cubic-bezier(0.65, 0.05, 0.36, 1));
+				color: transparent;
+				margin-left: 3rem;
+				max-width: 400px;
+				top: 80%;
+				width: calc(100% - 6rem);
+				width: -webkit-calc(100% - 6rem);
+			}
+
+			a{
+				display: block;
+				height: 100%;
+				text-decoration: none;
+				width: 100%;
+			}
+
+			&:hover{
+				@include scale(1.01);
+				background-position: 0 100%;
+
+				h3, p{
+					color: #fff;
+				}
+
+				h3{
+					top: 40%;
+				}
+
+				p{
+					top: 47%;
+				}
+			}
+		}
+	}
+}

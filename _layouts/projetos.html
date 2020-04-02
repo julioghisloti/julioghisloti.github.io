@@ -1,0 +1,23 @@
+{% include header.html %}
+
+	<main class="projects">
+		<h2><img src="/build/img/projetos.svg" alt="Projetos"></h2>
+
+		<div class="content columns">	
+			<ul class="projects-list column is-12">
+				{% for category in site.categories %}
+				{% for post in category[1] %}
+					<li>
+						<a href="{{ post.url }}">
+							<h3>{{ post.title }}</h3>
+							<p>{{ post.description }}</p>
+						</a>
+					</li>
+				{% endfor %}
+				{% endfor %}
+			</ul>
+		</div>
+
+	</main>
+
+{% include footer.html %}

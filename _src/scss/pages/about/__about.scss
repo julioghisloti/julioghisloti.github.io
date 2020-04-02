@@ -1,0 +1,23 @@
+.about{
+	flex-direction: column;
+	padding-top: 30%;
+
+	img{
+		margin-left: -8%;
+		width: calc(100% + 16%);
+		width: -webkit-calc(100% + 16%);
+	}
+
+	.jobs{
+		margin-top: 2rem;
+		list-style: none;
+
+		li{
+			margin-bottom: 2rem;
+
+			p{
+				margin-top: .4rem;
+			}
+		}
+	}
+}

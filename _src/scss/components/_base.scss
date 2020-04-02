@@ -1,0 +1,56 @@
+//Bulma
+@import "bulma/utilities/_all";
+@import "bulma/base/_all";
+@import "bulma/grid/_all";
+
+//addons
+@import "components/_slick";
+
+//base reset
+body{
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-family: 'Roboto', sans-serif;
+	font-size: 100%;
+	font-smooth: always;
+	padding: 0;
+	margin: 0;
+}
+
+body, p, h1, h2, h3, h4, h5, h6, ul, li{
+	padding: 0;
+	margin: 0;
+}
+
+svg{
+	height: initial;
+	width: 100%;
+}
+
+.content{
+	display: block;
+	margin: 0 auto;
+	position: relative;
+	//width: 100%;
+	width: calc(100% - 15%);
+	width: -webkit-calc(100% - 15%);
+}
+
+.content-absolute{
+	@include translate(-50%, 0);
+	left: 50%;
+	position: absolute;
+	width: calc(100% - 15%);
+	width: -webkit-calc(100% - 15%);
+	z-index: 2;
+}
+
+//components
+@import "components/_buttons";
+@import "components/_inputs";
+@import "components/_types";
+
+//layout
+@import "layout/_header";
+@import "layout/_footer";
+@import "layout/_menu";

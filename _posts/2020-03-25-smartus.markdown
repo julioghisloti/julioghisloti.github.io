@@ -1,0 +1,13 @@
+---
+layout: projeto
+title:  Smartus
+date:   2020-03-31
+permalink: projetos/smartus/
+categories: projetos
+description: teste
+---
+Donec arcu nulla, ultrices eu bibendum non, porta id quam. Fusce ultricies varius leo, id tempor lorem sollicitudin eget. Duis in augue ac ligula finibus consequat non ac risus. Ut rhoncus lacinia justo. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed euismod malesuada nunc, nec porttitor mauris lobortis sit amet.
+
+Sed commodo mattis dui. Maecenas lobortis eu ex at scelerisque. Nunc sit amet nunc non ex venenatis viverra at vel augue. Praesent at arcu scelerisque, ultricies nunc vitae, sollicitudin turpis. Mauris id tortor suscipit sapien posuere gravida. Aliquam erat volutpat. Sed nec ipsum id ipsum tincidunt volutpat ut in mi. Mauris sed pretium sapien, a euismod lectus. Nulla euismod nulla in urna auctor, ac tempus metus sollicitudin. Aliquam consequat, orci vitae interdum sollicitudin, ante lectus consectetur urna, at molestie nulla nisi id libero.
+
+![Imagem](https://via.placeholder.com/1920x1080)

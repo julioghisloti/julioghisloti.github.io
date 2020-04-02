@@ -1,10 +1,12 @@
 var gulp        = require('gulp');
 var gutil       = require('gulp-util');
-var stylus      = require('gulp-stylus');
-var jeet        = require('jeet');
-var uglify      = require('gulp-uglify');
+//var uglify      = require('gulp-uglify');
+let uglify      = require('gulp-uglify-es').default;
+var plumber     = require('gulp-plumber');
 var watch       = require('gulp-watch');
 var browserSync = require('browser-sync').create();
+var changed     = require('gulp-changed');
+var sass        = require('gulp-sass');
 
 //compass error
 var onError = function (err) {  
@@ -13,35 +15,31 @@ var onError = function (err) {
 };
 
 // Static Server + watching stylus/html files
-gulp.task('serve', ['stylus'], function() {
+gulp.task('server', ['sass'], function() {
 
     browserSync.init({
-       proxy: "localhost:1337/julioghisloti.github.io"
+       proxy: "127.0.0.1:4000"
     });
 
-    gulp.watch("src/styl/**/*.styl", ['stylus']);
-    gulp.watch("src/js/**/*.js", ['scripts']);
-    gulp.watch("*.html").on('change', browserSync.reload);
+    gulp.watch("_src/scss/**/*.scss", ['sass']);
+    gulp.watch("_src/js/*.js", ['scripts']).on('change', browserSync.reload);
+    gulp.watch("**/*.html").on('change', browserSync.reload);
 
-});
-
-gulp.task('default', ['serve']);
+}); 
 
 //minificando js
 gulp.task('scripts', function(){
-    return gulp.src('src/js/*.js')
+    gulp.src('_src/js/*.js')
         .pipe(uglify())
         .pipe(gulp.dest('build/js/'))
         .pipe(browserSync.stream());
 });
 
-//stylus
-gulp.task('stylus', function(){
-    gulp.src('./src/styl/*.styl')
-        .pipe(stylus({
-            use: [jeet()],
-            compress: true
-        }))
-        .pipe(gulp.dest('build/css'))
-        .pipe(browserSync.stream());
+gulp.task('sass', function () {
+  return gulp.src('_src/scss/**/*.scss')
+    .pipe(sass({outputStyle: 'compressed'}).on('error', sass.logError))
+    .pipe(gulp.dest('build/css/'))
+    .pipe(browserSync.stream());
 });
+
+gulp.task('default', ['server']);

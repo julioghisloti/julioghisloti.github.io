@@ -1,0 +1,10 @@
+@import "components/_colors";
+@import "components/_mixin";
+@import "components/_base";
+
+//pages
+	//home
+	@import "pages/home/__home";
+	@import "pages/about/__about";
+	@import "pages/projetos/__projetos";
+	@import "pages/projetos/__projeto";
