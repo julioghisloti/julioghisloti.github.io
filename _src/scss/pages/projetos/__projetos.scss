@@ -7,11 +7,9 @@
 		opacity: .2;
 	}
 
-	.columns{
-		flex-direction: column;
-	}
 
 	&-list{
+		max-width: initial;
 		list-style: none;
 
 		li{

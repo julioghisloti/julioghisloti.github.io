@@ -14,7 +14,9 @@ h2{
 	letter-spacing: .16rem;
 	line-height: 1.1em;
 	font-size: 4rem;
-	margin-left: -.3rem;
+	margin-left: -.2rem;
+	max-width: 1000px;
+	width: 100%;
 }
 
 h3{
@@ -22,7 +24,9 @@ h3{
 	letter-spacing: .16rem;
 	line-height: 1.1em;
 	font-size: 1.8rem;
-	margin-left: -.3rem;
+	margin-bottom: -.5rem;
+	margin-left: -.05rem;
+	margin-top: 2rem;
 }
 
 h4{
@@ -45,4 +49,12 @@ p{
 	font-size: 1.1rem;
 	letter-spacing: .04rem;
 	line-height: 1.40em;
+	margin: .85rem 0;
+	max-width: 540px;
+	width: 100%;
+}
+
+ul{
+	max-width: 540px;
+	width: 100%;
 }

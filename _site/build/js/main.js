@@ -1,1 +1,1 @@
-$(function(){$(".menu").on("click",function(n){n.preventDefault(),$(".menu-over").toggleClass("m-o-a")})});
+$(function(){$(".menu").on("click",function(n){n.preventDefault(),$(".menu-over").toggleClass("m-o-a")}),$("p").find("img").parent().addClass("full")});
