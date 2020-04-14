@@ -6,7 +6,7 @@ permalink: projetos/smartus/
 categories: projetos
 description: Startup referência nacional na produção de conteúdo e organização de eventos para o mercado de real estate. Estive envolvido no processo de ideação, discovery, prototipação, release e amadurecimento do produto que viabiliza a atuação digital da marca.
 ---
-
+q
 Startup incubada pelo GRI Group, um networking c-level responsável por conectar os principais líderes de Real Estate e Infraestrutura ao redor do mundo. A Smartus surgiu com o propósito de articular players estratégicos do mercado imobiliário brasileiro com conteúdos desenvolvidos pelas referências atuantes no setor, voltado a executivos e empresas mid-range do ramo.
 
 Dois anos após o seu lançamento em 2018 a Smartus já se tornou referência no mercado nacional e distribui conteúdo de impacto em diversos meios, como: Newsletter, e-Books, vídeos e eventos por todos o Brasil e em alguns países da américa latina.
