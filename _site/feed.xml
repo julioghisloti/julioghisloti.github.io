@@ -1,9 +1,13 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-04-10T10:51:11-03:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">julio ghisloti</title><subtitle>my portifolio theme</subtitle><entry><title type="html">smartus</title><link href="http://localhost:4000/projetos/smartus/" rel="alternate" type="text/html" title="smartus" /><published>2020-03-31T00:00:00-03:00</published><updated>2020-03-31T00:00:00-03:00</updated><id>http://localhost:4000/projetos/smartus</id><content type="html" xml:base="http://localhost:4000/projetos/smartus/">&lt;p&gt;Startup incubada pelo GRI Group, um networking c-level responsável por conectar os principais líderes de Real Estate e Infraestrutura ao redor do mundo. A Smartus surgiu com o propósito de articular players estratégicos do mercado imobiliário brasileiro com conteúdos desenvolvidos pelas referências atuantes no setor, voltado a executivos e empresas mid-range do ramo.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-04-13T20:11:48-03:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">julio ghisloti</title><subtitle>my portifolio theme</subtitle><entry><title type="html">smartus</title><link href="http://localhost:4000/projetos/smartus/" rel="alternate" type="text/html" title="smartus" /><published>2020-03-31T00:00:00-03:00</published><updated>2020-03-31T00:00:00-03:00</updated><id>http://localhost:4000/projetos/smartus</id><content type="html" xml:base="http://localhost:4000/projetos/smartus/">&lt;p&gt;Startup incubada pelo GRI Group, um networking c-level responsável por conectar os principais líderes de Real Estate e Infraestrutura ao redor do mundo. A Smartus surgiu com o propósito de articular players estratégicos do mercado imobiliário brasileiro com conteúdos desenvolvidos pelas referências atuantes no setor, voltado a executivos e empresas mid-range do ramo.&lt;/p&gt;
 
 &lt;p&gt;Dois anos após o seu lançamento em 2018 a Smartus já se tornou referência no mercado nacional e distribui conteúdo de impacto em diversos meios, como: Newsletter, e-Books, vídeos e eventos por todos o Brasil e em alguns países da américa latina.&lt;/p&gt;
 
 &lt;h3 id=&quot;escopo-do-produto&quot;&gt;Escopo do produto&lt;/h3&gt;
 &lt;p&gt;O projeto foi divido em fases alinhadas com as necessidades do cliente. A cada fase elaboramos um MPV que foi sendo melhorado de acordo com os feedbacks dos usuários e com os entregáveis de cada feature, que foram divididos e elegidos por ordem de importância para o produto.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/build/img/posts/projetos/smartus/escopo.jpg&quot; alt=&quot;Escopo do Projeto&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/build/img/posts/projetos/smartus/release.jpg&quot; alt=&quot;Estrutura de Release&quot; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;persona&quot;&gt;Persona&lt;/h3&gt;
 &lt;p&gt;Montar Persona&lt;/p&gt;
@@ -11,7 +15,7 @@
 &lt;h3 id=&quot;primeiro-sprint&quot;&gt;Primeiro Sprint&lt;/h3&gt;
 &lt;p&gt;Idealizado para tornar viável a demanda de comunicar e vender o evento inaugural da empresa previsto para acontecer 20 dias após o início do projeto, o primeiro sprint possui uma user journey simplificada para atender o prazo.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://via.placeholder.com/1920x1080&quot; alt=&quot;Img Sprint 1&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/build/img/posts/projetos/smartus/jornada-1.jpg&quot; alt=&quot;Jornada Simplificada - Primeiro Sprint&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;O wireframe do protótipo inicial foi desenvolvido tendo como achievement uma curva pequena de desenvolvimento e implementação e usando algumas decisões de design já aprovadas no brand guide até esse momento.&lt;/p&gt;
 

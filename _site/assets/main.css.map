@@ -3,10 +3,10 @@
 	"file": "main.css",
 	"sources": [
 		"main.scss",
-		"../../../../usr/local/lib/ruby/gems/2.7.0/gems/minima-2.5.1/_sass/minima.scss",
-		"../../../../usr/local/lib/ruby/gems/2.7.0/gems/minima-2.5.1/_sass/minima/_base.scss",
-		"../../../../usr/local/lib/ruby/gems/2.7.0/gems/minima-2.5.1/_sass/minima/_layout.scss",
-		"../../../../usr/local/lib/ruby/gems/2.7.0/gems/minima-2.5.1/_sass/minima/_syntax-highlighting.scss"
+		"../../../../Users/julio/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/minima-2.5.1/_sass/minima.scss",
+		"../../../../Users/julio/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/minima-2.5.1/_sass/minima/_base.scss",
+		"../../../../Users/julio/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/minima-2.5.1/_sass/minima/_layout.scss",
+		"../../../../Users/julio/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/minima-2.5.1/_sass/minima/_syntax-highlighting.scss"
 	],
 	"sourcesContent": [
 		"@import \"minima\";\n",

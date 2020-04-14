@@ -54,7 +54,7 @@
 			}
 
 			&:hover{
-				@include scale(1.01);
+				//@include scale(1.01);
 				background-position: 0 100%;
 
 				h3, p{
@@ -62,7 +62,7 @@
 				}
 
 				h3{
-					top: 30%;
+					top: 24%;
 				}
 
 				p{
