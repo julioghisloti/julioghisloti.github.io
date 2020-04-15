@@ -73,4 +73,25 @@
 			}
 		}
 	}
+
+	@media screen and (max-width: 1050px){
+		padding-top: 25rem;
+
+		.projects-list li{
+			height: initial;
+			padding: 4rem 0 3.5rem 0;
+
+			h3, p{
+				@include translate(0, 0);
+				color: #000;
+				position: relative;
+			}
+
+			&:hover{
+				h3, p{
+					color: #fff;
+				}
+			}
+		}
+	}
 }

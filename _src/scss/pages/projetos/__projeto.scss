@@ -3,6 +3,7 @@
 	padding-top: 30%;
 
 	.full{
+		margin: 3rem 0;
 		margin-left: -7.5%;
 		max-width: initial;
 		width: calc(100% + 15%);
@@ -10,5 +11,13 @@
 		img{
 			width: 100%;
 		}
+	}
+
+	.full + .full{
+		margin-top: -3rem;
+	}
+
+	@media screen and (max-width: 1050px){
+		padding-top: 25rem;
 	}
 }
