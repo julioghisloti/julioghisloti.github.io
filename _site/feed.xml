@@ -1,46 +1,45 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-04-13T20:11:48-03:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">julio ghisloti</title><subtitle>my portifolio theme</subtitle><entry><title type="html">smartus</title><link href="http://localhost:4000/projetos/smartus/" rel="alternate" type="text/html" title="smartus" /><published>2020-03-31T00:00:00-03:00</published><updated>2020-03-31T00:00:00-03:00</updated><id>http://localhost:4000/projetos/smartus</id><content type="html" xml:base="http://localhost:4000/projetos/smartus/">&lt;p&gt;Startup incubada pelo GRI Group, um networking c-level responsável por conectar os principais líderes de Real Estate e Infraestrutura ao redor do mundo. A Smartus surgiu com o propósito de articular players estratégicos do mercado imobiliário brasileiro com conteúdos desenvolvidos pelas referências atuantes no setor, voltado a executivos e empresas mid-range do ramo.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-04-15T17:55:20-03:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">julio ghisloti</title><subtitle>my portifolio theme</subtitle><entry><title type="html">smartus</title><link href="http://localhost:4000/projetos/smartus/" rel="alternate" type="text/html" title="smartus" /><published>2020-03-31T00:00:00-03:00</published><updated>2020-03-31T00:00:00-03:00</updated><id>http://localhost:4000/projetos/smartus</id><content type="html" xml:base="http://localhost:4000/projetos/smartus/">&lt;p&gt;Startup incubada pelo GRI Group, um networking C-level responsável por conectar os principais líderes de Real Estate e Infraestrutura ao redor do mundo. A Smartus surgiu com o propósito de articular players estratégicos do mercado imobiliário brasileiro com conteúdos desenvolvidos pelas referências atuantes no setor, voltado a executivos e empresas mid-range do ramo.&lt;/p&gt;
 
-&lt;p&gt;Dois anos após o seu lançamento em 2018 a Smartus já se tornou referência no mercado nacional e distribui conteúdo de impacto em diversos meios, como: Newsletter, e-Books, vídeos e eventos por todos o Brasil e em alguns países da américa latina.&lt;/p&gt;
+&lt;p&gt;Dois anos após o seu lançamento em 2018, a Smartus já se tornou referência no mercado nacional e distribui conteúdo de impacto em diversos meios, como: Newsletter, e-Books, vídeos e eventos por todos o Brasil e em alguns países da américa latina.&lt;/p&gt;
 
 &lt;h3 id=&quot;escopo-do-produto&quot;&gt;Escopo do produto&lt;/h3&gt;
-&lt;p&gt;O projeto foi divido em fases alinhadas com as necessidades do cliente. A cada fase elaboramos um MPV que foi sendo melhorado de acordo com os feedbacks dos usuários e com os entregáveis de cada feature, que foram divididos e elegidos por ordem de importância para o produto.&lt;/p&gt;
+&lt;p&gt;O projeto foi divido em fases alinhadas com as necessidades do cliente. A cada fase elaboramos um MVP. Realizamos pesquisas e fomos implementado features de acordo com as necessidades do usuário e do produto.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/build/img/posts/projetos/smartus/escopo.jpg&quot; alt=&quot;Escopo do Projeto&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/build/img/posts/projetos/smartus/release.jpg&quot; alt=&quot;Estrutura de Release&quot; /&gt;&lt;/p&gt;
 
-&lt;h3 id=&quot;persona&quot;&gt;Persona&lt;/h3&gt;
-&lt;p&gt;Montar Persona&lt;/p&gt;
-
 &lt;h3 id=&quot;primeiro-sprint&quot;&gt;Primeiro Sprint&lt;/h3&gt;
-&lt;p&gt;Idealizado para tornar viável a demanda de comunicar e vender o evento inaugural da empresa previsto para acontecer 20 dias após o início do projeto, o primeiro sprint possui uma user journey simplificada para atender o prazo.&lt;/p&gt;
+&lt;p&gt;Idealizado para tornar viável a demanda de comunicar e vender o evento inaugural da empresa previsto para acontecer 20 dias após o início do projeto, o primeiro sprint possui uma user journey simplificada.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/build/img/posts/projetos/smartus/jornada-1.jpg&quot; alt=&quot;Jornada Simplificada - Primeiro Sprint&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;O wireframe do protótipo inicial foi desenvolvido tendo como achievement uma curva pequena de desenvolvimento e implementação e usando algumas decisões de design já aprovadas no brand guide até esse momento.&lt;/p&gt;
+&lt;p&gt;Por ter um prazo muito reduzido nesse sprint, o protótipo inicial da interface foi desenvolvido com foco em uma curva pequena de desenvolvimento e implementação e já usando algumas decisões de design aprovadas no brand guide até esse momento.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://via.placeholder.com/1920x1080&quot; alt=&quot;Img wireframe Sprint 1&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/build/img/posts/projetos/smartus/wireframe-1.jpg&quot; alt=&quot;Wireframe do primeiro sprint&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;O primeiro sprint funcionou muito bem. Com os esforços de todos os times em conjunto, o primeiro evento foi 100% vendido. Colhemos feedbacks dos usuários e da equipe e aplicamos alterações para as próximas entregas.&lt;/p&gt;
+&lt;p&gt;O primeiro sprint funcionou muito bem. Com os esforços de todos os times em conjunto, o primeiro evento foi 100% vendido. Colhemos feedbacks dos usuários e outros stakeholders e aplicamos alterações para o próximo sprint.&lt;/p&gt;
 
 &lt;h3 id=&quot;segundo-sprint&quot;&gt;Segundo Sprint&lt;/h3&gt;
-&lt;p&gt;Para o segundo sprint a ideia foi trazer o conteúdo produzido pela empresa como protagonista e fazer que com o eventos fossem mais um ponto de disseminação de conhecimento, ficando assim como um resultado de todo o  know-how da companhia.&lt;/p&gt;
+&lt;p&gt;Para o segundo sprint a ideia foi trazer o conteúdo produzido pela empresa como protagonista, trocando de lugar em grau de importância com os eventos.&lt;/p&gt;
 
-&lt;h3 id=&quot;user-flow&quot;&gt;User Flow&lt;/h3&gt;
-&lt;p&gt;Com uma navegação oferecendo mais oportunidade de interação para o usuário, surge a necessidade de desenhar um user flow mais robusto levando em consideração os principais touch points.&lt;/p&gt;
+&lt;h3 id=&quot;user-journey&quot;&gt;User journey&lt;/h3&gt;
+&lt;p&gt;Com uma navegação complexa, surge a necessidade de escalar a user journey para um modelo mais robusto levando em consideração os novos touch points.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://via.placeholder.com/1920x1080&quot; alt=&quot;Img user flow&quot; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;wireframe&quot;&gt;Wireframe&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&quot;https://via.placeholder.com/1920x1080&quot; alt=&quot;Wireframe&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/build/img/posts/projetos/smartus/jornada-2.jpg&quot; alt=&quot;Jornada Simplificada - Primeiro Sprint&quot; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;desgin-system&quot;&gt;Desgin System&lt;/h3&gt;
-&lt;p&gt;Criado para gerar consistência de em toda a identidade visual, criar componentes escalonáveis, proporcionar velocidade para criar e ou aperfeiçoar features. O design system nasceu pequeno e foi sendo aperfeiçoado paralelamente para otimizar tempo.&lt;/p&gt;
+&lt;p&gt;Decidimos criar um design system para garantir consistência na identidade visual do produto e otimizar o desenvolvimento de novas features.&lt;/p&gt;
 
-&lt;p&gt;O resultado de suma importância no projeto que tem como característica uma grande curva de maturidade e várias mudanças durante tempo de vida.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://via.placeholder.com/1920x1080&quot; alt=&quot;Design Sys&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;O resultado foi de suma importância para o projeto que tem como característica uma grande curva de maturidade e várias mudanças durante tempo de vida.&lt;/p&gt;
 
 &lt;h3 id=&quot;visual-design&quot;&gt;Visual Design&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&quot;https://via.placeholder.com/1920x1080&quot; alt=&quot;Layout&quot; /&gt;
-&lt;img src=&quot;https://via.placeholder.com/1920x1080&quot; alt=&quot;Layout&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Startup incubada pelo GRI Group, um networking c-level responsável por conectar os principais líderes de Real Estate e Infraestrutura ao redor do mundo. A Smartus surgiu com o propósito de articular players estratégicos do mercado imobiliário brasileiro com conteúdos desenvolvidos pelas referências atuantes no setor, voltado a executivos e empresas mid-range do ramo.</summary></entry></feed>
+&lt;p&gt;A página de evento exige uma grande possibilidade de customização. Para isso, foi desenvolvido um sistema modular com 19 componentes que podem ser usados e organizados de maneiras diferentes de acordo com o momento em que o evento se encontra.&lt;/p&gt;
+
+&lt;p&gt;A primeira sessão do evento conta com 3 estados diferentes. Imagem destacada, imagem lateral e vídeo.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/build/img/posts/projetos/smartus/visual-1.jpg&quot; alt=&quot;Abertura - Página de Evento&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Cada componente foi pensado para alterar de cor de acordo com a categoria do tema. Essa cor é escolhida pelo editor que monta a página pela plataforma.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/build/img/posts/projetos/smartus/visual-2.jpg&quot; alt=&quot;Cor dos componentes - Página de Evento&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Startup incubada pelo GRI Group, um networking C-level responsável por conectar os principais líderes de Real Estate e Infraestrutura ao redor do mundo. A Smartus surgiu com o propósito de articular players estratégicos do mercado imobiliário brasileiro com conteúdos desenvolvidos pelas referências atuantes no setor, voltado a executivos e empresas mid-range do ramo.</summary></entry></feed>

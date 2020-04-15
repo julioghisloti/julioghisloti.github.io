@@ -5,6 +5,7 @@
 		@include blur(22px);
 		margin-bottom: 2rem;//-5rem;
 		opacity: .2;
+		max-width: initial;
 	}
 
 
@@ -32,6 +33,7 @@
 				@include transition(all .5s cubic-bezier(0.65, 0.05, 0.36, 1));
 				@include translate(0, -50%);
 				color: #000;	
+				margin-top: 0;
 				margin-left: 3rem;
 				top: 50%;
 			}
@@ -62,7 +64,7 @@
 				}
 
 				h3{
-					top: 24%;
+					top: 34%;
 				}
 
 				p{
