@@ -77,19 +77,26 @@
 	@media screen and (max-width: 1050px){
 		padding-top: 25rem;
 
-		.projects-list li{
-			height: initial;
-			padding: 4rem 0 3.5rem 0;
+		.projects-list{
+			margin-left: -5%;
+			width: calc(100% + 10%);
+			width: -webkit-calc(100% + 10%);
 
-			h3, p{
-				@include translate(0, 0);
-				color: #000;
-				position: relative;
-			}
+			li{
+				height: initial;
+				padding: 3rem 0 2rem 0;
 
-			&:hover{
 				h3, p{
-					color: #fff;
+					@include translate(0, 0);
+					color: #000;
+					margin-left: 1.5rem;
+					position: relative;
+				}
+
+				&:hover{
+					h3, p{
+						color: #fff;
+					}
 				}
 			}
 		}
