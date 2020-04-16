@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-04-16T11:55:53-03:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">julio ghisloti</title><subtitle>my portifolio theme</subtitle><entry><title type="html">smartus</title><link href="http://localhost:4000/projetos/smartus/" rel="alternate" type="text/html" title="smartus" /><published>2020-03-31T00:00:00-03:00</published><updated>2020-03-31T00:00:00-03:00</updated><id>http://localhost:4000/projetos/smartus</id><content type="html" xml:base="http://localhost:4000/projetos/smartus/">&lt;p&gt;Startup incubada pelo GRI Group, um networking C-level responsável por conectar os principais líderes de Real Estate e Infraestrutura ao redor do mundo. A Smartus surgiu com o propósito de articular players estratégicos do mercado imobiliário brasileiro com conteúdos desenvolvidos pelas referências atuantes no setor, voltado a executivos e empresas mid-range do ramo.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-04-16T13:13:05-03:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">julio ghisloti</title><subtitle>my portifolio theme</subtitle><entry><title type="html">smartus</title><link href="http://localhost:4000/projetos/smartus/" rel="alternate" type="text/html" title="smartus" /><published>2020-03-31T00:00:00-03:00</published><updated>2020-03-31T00:00:00-03:00</updated><id>http://localhost:4000/projetos/smartus</id><content type="html" xml:base="http://localhost:4000/projetos/smartus/">&lt;p&gt;Startup incubada pelo GRI Group, um networking C-level responsável por conectar os principais líderes de Real Estate e Infraestrutura ao redor do mundo. A Smartus surgiu com o propósito de articular players estratégicos do mercado imobiliário brasileiro com conteúdos desenvolvidos pelas referências atuantes no setor, voltado a executivos e empresas mid-range do ramo.&lt;/p&gt;
 
 &lt;p&gt;Dois anos após o seu lançamento em 2018, a Smartus já se tornou referência no mercado nacional e distribui conteúdo de impacto em diversos meios, como: Newsletter, e-Books, vídeos e eventos por todos o Brasil e em alguns países da américa latina.&lt;/p&gt;
 
@@ -14,7 +14,7 @@
 
 &lt;p&gt;&lt;img src=&quot;/build/img/posts/projetos/smartus/jornada-1.jpg&quot; alt=&quot;Jornada Simplificada - Primeiro Sprint&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Por ter um prazo muito reduzido nesse sprint, o protótipo inicial da interface foi desenvolvido com foco em uma curva pequena de desenvolvimento e implementação e já usando algumas decisões de design aprovadas no brand guide até esse momento.&lt;/p&gt;
+&lt;p&gt;Por ter um prazo muito reduzido nesse sprint, o protótipo inicial da interface foi desenvolvido com foco em uma curva pequena de desenvolvimento e implementação, já usando algumas decisões de design aprovadas no brand guide até esse momento.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/build/img/posts/projetos/smartus/wireframe-1.jpg&quot; alt=&quot;Wireframe do primeiro sprint&quot; /&gt;&lt;/p&gt;
 
@@ -28,7 +28,7 @@
 
 &lt;p&gt;&lt;img src=&quot;/build/img/posts/projetos/smartus/jornada-2.jpg&quot; alt=&quot;Jornada Simplificada - Primeiro Sprint&quot; /&gt;&lt;/p&gt;
 
-&lt;h3 id=&quot;desgin-system&quot;&gt;Desgin System&lt;/h3&gt;
+&lt;h3 id=&quot;design-system&quot;&gt;Design System&lt;/h3&gt;
 &lt;p&gt;Decidimos criar um design system para garantir consistência na identidade visual do produto e otimizar o desenvolvimento de novas features.&lt;/p&gt;
 
 &lt;p&gt;O resultado foi de suma importância para o projeto que tem como característica uma grande curva de maturidade e várias mudanças durante tempo de vida.&lt;/p&gt;
@@ -44,7 +44,7 @@
 
 &lt;p&gt;&lt;img src=&quot;/build/img/posts/projetos/smartus/visual-2.jpg&quot; alt=&quot;Cor dos componentes - Página de Evento&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;A página de evento performa muito bem dá todo o suporte a equipe de conteúdo, responsável por criar e administrar a página de cada evento. Os testes, conversas com usuários e com outras equipes internas foram cruciais para melhorar os componentes que não performaram muito bem.&lt;/p&gt;
+&lt;p&gt;A página de evento performa muito bem e dá todo o suporte à equipe de conteúdo, responsável por criar e administrar a página de cada evento. Os testes, conversas com usuários e com outras equipes internas foram cruciais para melhorar os componentes que não performaram muito bem.&lt;/p&gt;
 
 &lt;p&gt;As páginas de notícias de publicações ganharam as funcionalidades que surgiram junto às necessidades da equipe de conteúdo e deram a essas páginas um ar editorial, aumentando as possibilidades estratégicas.&lt;/p&gt;
 
