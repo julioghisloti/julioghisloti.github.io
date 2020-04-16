@@ -52,3 +52,13 @@ A primeira sessão do evento conta com 3 estados diferentes. Imagem destacada, i
 Cada componente foi pensado para alterar de cor de acordo com a categoria do tema. Essa cor é escolhida pelo editor que monta a página pela plataforma.
 
 ![Cor dos componentes - Página de Evento](/build/img/posts/projetos/smartus/visual-2.jpg)
+
+A página de evento performa muito bem dá todo o suporte a equipe de conteúdo, responsável por criar e administrar a página de cada evento. Os testes, conversas com usuários e com outras equipes internas foram cruciais para melhorar os componentes que não performaram muito bem.
+
+As páginas de notícias de publicações ganharam as funcionalidades que surgiram junto às necessidades da equipe de conteúdo e deram a essas páginas um ar editorial, aumentando as possibilidades estratégicas.
+
+![Visual Design - Site](/build/img/posts/projetos/smartus/visual-3.jpg)
+
+O produto está sendo um sucesso e continua dando base ao crescimento exponencial da empresa que em menos de dois anos começou a atuar em outros países da américa latina.
+
+&nbsp;
