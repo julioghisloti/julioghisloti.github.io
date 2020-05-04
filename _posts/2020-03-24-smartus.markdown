@@ -1,0 +1,64 @@
+---
+layout: projeto
+title:  smartus 2
+date:   2020-03-31
+permalink: projetos/smartus/
+categories: projetos
+description: Startup referência nacional na produção de conteúdo e organização de eventos para o mercado de real estate. Estive envolvido no processo de ideação, discovery, prototipação, release e amadurecimento do produto que viabiliza a atuação digital da marca.
+---
+
+Startup incubada pelo GRI Group, um networking C-level responsável por conectar os principais líderes de Real Estate e Infraestrutura ao redor do mundo. A Smartus surgiu com o propósito de articular players estratégicos do mercado imobiliário brasileiro com conteúdos desenvolvidos pelas referências atuantes no setor, voltado a executivos e empresas mid-range do ramo.
+
+Dois anos após o seu lançamento em 2018, a Smartus já se tornou referência no mercado nacional e distribui conteúdo de impacto em diversos meios, como: Newsletter, e-Books, vídeos e eventos por todos o Brasil e em alguns países da américa latina.
+
+### Escopo do produto
+O projeto foi divido em fases alinhadas com as necessidades do cliente. A cada fase elaboramos um MVP. Realizamos pesquisas e fomos implementado features de acordo com as necessidades do usuário e do produto.
+
+![Escopo do Projeto](/build/img/posts/projetos/smartus/escopo.jpg)
+
+![Estrutura de Release](/build/img/posts/projetos/smartus/release.jpg)
+
+### Primeiro Sprint
+Idealizado para tornar viável a demanda de comunicar e vender o evento inaugural da empresa previsto para acontecer 20 dias após o início do projeto, o primeiro sprint possui uma user journey simplificada.
+
+![Jornada Simplificada - Primeiro Sprint](/build/img/posts/projetos/smartus/jornada-1.jpg)
+
+Por ter um prazo muito reduzido nesse sprint, o protótipo inicial da interface foi desenvolvido com foco em uma curva pequena de desenvolvimento e implementação, já usando algumas decisões de design aprovadas no brand guide até esse momento.
+
+![Wireframe do primeiro sprint](/build/img/posts/projetos/smartus/wireframe-1.jpg)
+
+O primeiro sprint funcionou muito bem. Com os esforços de todos os times em conjunto, o primeiro evento foi 100% vendido. Colhemos feedbacks dos usuários e outros stakeholders e aplicamos alterações para o próximo sprint.
+
+### Segundo Sprint
+Para o segundo sprint a ideia foi trazer o conteúdo produzido pela empresa como protagonista, trocando de lugar em grau de importância com os eventos.
+
+### User journey
+Com uma navegação complexa, surge a necessidade de escalar a user journey para um modelo mais robusto levando em consideração os novos touch points.
+
+![Jornada Simplificada - Primeiro Sprint](/build/img/posts/projetos/smartus/jornada-2.jpg)
+
+### Design System
+Decidimos criar um design system para garantir consistência na identidade visual do produto e otimizar o desenvolvimento de novas features.
+
+O resultado foi de suma importância para o projeto que tem como característica uma grande curva de maturidade e várias mudanças durante tempo de vida.
+
+### Visual Design
+A página de evento exige uma grande possibilidade de customização. Para isso, foi desenvolvido um sistema modular com 19 componentes que podem ser usados e organizados de maneiras diferentes de acordo com o momento em que o evento se encontra.
+
+A primeira sessão do evento conta com 3 estados diferentes. Imagem destacada, imagem lateral e vídeo.
+
+![Abertura - Página de Evento](/build/img/posts/projetos/smartus/visual-1.jpg)
+
+Cada componente foi pensado para alterar de cor de acordo com a categoria do tema. Essa cor é escolhida pelo editor que monta a página pela plataforma.
+
+![Cor dos componentes - Página de Evento](/build/img/posts/projetos/smartus/visual-2.jpg)
+
+A página de evento performa muito bem e dá todo o suporte à equipe de conteúdo, responsável por criar e administrar a página de cada evento. Os testes, conversas com usuários e com outras equipes internas foram cruciais para melhorar os componentes que não performaram muito bem.
+
+As páginas de notícias de publicações ganharam as funcionalidades que surgiram junto às necessidades da equipe de conteúdo e deram a essas páginas um ar editorial, aumentando as possibilidades estratégicas.
+
+![Visual Design - Site](/build/img/posts/projetos/smartus/visual-3.jpg)
+
+O produto está sendo um sucesso e continua dando base ao crescimento exponencial da empresa que em menos de dois anos começou a atuar em outros países da américa latina.
+
+&nbsp;
