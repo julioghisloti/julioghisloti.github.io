@@ -9,28 +9,22 @@
 
 	<link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="/build/css/style.css">
+	
+	<script src="/build/js/main.js"></script>
 </head>
 <body>
-	<div class="menu-over">
-	<nav class="content">
-		<a href="" class="menu"><strong>fechar</strong></a>
+	<svg id="fader"></svg>
+	<script>fadeInPage();</script>
 
-		<ul>
-			<li><a href="/">Sobre&nbsp;<span>&</span></a></li>
-			<li><a href="/projetos">Projetos&nbsp;<span>&</span></a></li>
-			<!-- <li><a href="/textos">Textos&nbsp;<span>.</span></a></li> -->
-		</ul>
-	</nav>
-</div>
-
-<header class="header content-absolute">		
-	<h1 class="logo">
-		<a href="/">
-			<img src="/build/img/logo.svg" alt="Julio Ghisloti">
-		</a>
-	</h1>
-	<a href="#" class="menu"><strong>Menu</strong></a>
-</header>
+	<header class="header content-absolute">		
+		<h1 class="logo">
+			<a href="/">
+				<img src="/build/img/logo.svg" alt="Julio Ghisloti">
+			</a>
+		</h1>
+		<!-- <a href="#" class="menu"><strong>Menu</strong></a> -->
+		<a href="/projetos"><strong>Projetos</strong></a>
+	</header>
 
 	<main class="about content">
 		<p>
@@ -93,8 +87,7 @@
 		</ul>
 	</main>
 
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-		<script src="/build/js/main.js"></script>
+		
 		
 	</body>
 </html>

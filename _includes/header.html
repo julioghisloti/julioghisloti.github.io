@@ -9,6 +9,19 @@
 
 	<link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="/build/css/style.css">
+	
+	<script src="/build/js/main.js"></script>
 </head>
 <body>
-	{% include menu.html %}
+	<svg id="fader"></svg>
+	<script>fadeInPage();</script>
+
+	<header class="header content-absolute">		
+		<h1 class="logo">
+			<a href="/">
+				<img src="/build/img/logo.svg" alt="Julio Ghisloti">
+			</a>
+		</h1>
+		<!-- <a href="#" class="menu"><strong>Menu</strong></a> -->
+		<a href="/projetos"><strong>Projetos</strong></a>
+	</header>
